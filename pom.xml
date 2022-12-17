@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.simplilearn</groupId>
-	<artifactId>Calc</artifactId>
+	<artifactId>calc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Calc</name>
+	<name>calc</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

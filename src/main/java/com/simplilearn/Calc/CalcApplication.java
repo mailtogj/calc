@@ -1,4 +1,4 @@
-package com.simplilearn.Calc;
+package com.simplilearn.calc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

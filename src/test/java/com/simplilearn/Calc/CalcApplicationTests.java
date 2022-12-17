@@ -1,4 +1,4 @@
-package com.simplilearn.Calc;
+package com.simplilearn.calc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
