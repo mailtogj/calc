@@ -1,0 +1,24 @@
+pipeline {
+	agent any
+	tools {
+    	maven 'mvn_1'
+	}
+	stages {
+    	stage("Checkout") {   
+        	steps {               	 
+            	git url: 'https://github.com/mailtogj/calc', branch: "main"
+        	}    
+    	}
+    	stage('Build') {
+        	steps {
+        	bat "mvn compile"  	 
+        	}
+    	}
+   	 
+    	stage("Unit test") {          	 
+        	steps {  	 
+            	bat "mvn test"          	 
+       	}
+}
+}
+}
